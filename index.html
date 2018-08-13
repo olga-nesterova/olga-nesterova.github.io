@@ -69,7 +69,7 @@
                 <p>Телефон: <span>+7-910-893-5075</span></p>
               </li>
               <li>
-                <p>Email: <span><a href="mailto:example@gmail.com">olganesterova034@gmail.com</a></span></p>
+                <p>Email: <span><a href="mailto:olganesterova034@gmail.com">olganesterova034@gmail.com</a></span></p>
               </li>
               <li>
                 <p>Вебсайт: <span><a href="https://olga-nesterova.github.io/index.html">olga-nesterova.github.io</a></span></p>
@@ -235,20 +235,22 @@
             </div>
             <div class="clearfix"></div>
           </div>
+          <form action="mailto:olganesterova034@gmail.com" method="GET">
           <div class="contact-form">
             <div class="text">
-              <input type="text" value="Ваше имя.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ваше имя..';}" />
+              <input type="text" name="subject" value="Ваше имя.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ваше имя..';}" />
             </div>
             <div class="text">
               <input type="text" value="Ваш имейл.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ваш имейл..';}" />
             </div>
             <div class="text">
-              <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Ваше сообщение..</textarea>
+              <textarea value="Message:" name="body" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Ваше сообщение..</textarea>
             </div>
             <div class="text">
               <input type="submit" value="Отправить" />
             </div>
           </div>
+        </form>
         </div>
       </div>
     </div>
