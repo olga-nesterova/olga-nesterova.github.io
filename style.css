@@ -37,7 +37,7 @@ html,body{
 	font-size:35px;
 	font-weight:800;
 	color:#2b3b4b;
-	margin:10px 0 5px 0;	
+	margin:10px 0 5px 0;
 }
 .header-top small {
 	font-size: 16px;
@@ -175,13 +175,13 @@ a.download span{
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:0.5em;
-	
+
 }
 /*--- About Part Ends Here ---*/
 /*--- Experience Starts Here ----*/
 .experience{
 	background:#f1f2f7;
-	min-height:1050px;
+	min-height:1220px;
 }
 .exp-top{
 	padding:2em 0;
@@ -198,7 +198,7 @@ a.download span{
 	font-size:20px;
 	display: block;
 	text-align:center;
-	width:15%;
+	width:20%;
 	font-weight:800;
 	border-radius:6px;
 	-webkit-border-radius:6px;
@@ -208,9 +208,17 @@ a.download span{
 	margin:0 auto;
 	position:relative;
 }
-span.devide-line{
+span.devide-line-ed{
 	width:3px;
 	height:450px;
+	position:absolute;
+	top:30px;
+	display:initial;
+	background:#d4d4d4;
+}
+span.devide-line-exp{
+	width:3px;
+	height:560px;
 	position:absolute;
 	top:30px;
 	display:initial;
@@ -246,23 +254,23 @@ label.book{
 	position:relative;
 	left:-3em;
 	top:1.5em;
-	
+
 }
-.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5{
+.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5,.exp-devide-grid-lefttb h5{
 	color:#2b3b4b;
 	text-transform:uppercase;
-	font-size:18px;
+	font-size:17px;
 	font-weight:800;
 	margin:0;
 }
-.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small{
-	font-size:16px;
+.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,.exp-devide-grid-lefttb small{
+	font-size:15px;
 	font-weight:400;
 	color:#7f8a90;
 	padding:0 0 10px 0;
 }
-.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p{
-	font-size:14px;
+.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p,.exp-devide-grid-lefttb p{
+	font-size:13px;
 	font-weight:400;
 	color:#7f8a90;
 	line-height:1.2em;
@@ -279,7 +287,21 @@ label.book{
 	position:relative;
 	left:3em;
 	top:1.5em;
-	
+
+}
+.exp-devide-grid-lefttb{
+	width:40%;
+	text-align:right;
+	position:absolute;
+	top:30em;
+	left: 5.8em;
+}
+.exp-devide-grid-lefttb:before{
+	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	position:relative;
+	left:23em;
+	top:1.5em;
+
 }
 .exp-devide-grid-rightb{
 	width:40%;
@@ -293,15 +315,15 @@ label.book{
 	position:relative;
 	left:-3em;
 	top:1.5em;
-	
+
 }
 .education{
-	margin-top:38%;
+	margin-top:48%;
 }
 /*--- Experience Ends Here ----*/
 /*--- Skills Starts Here ----*/
 .skills{
-	margin:2em 0;
+	margin:4em 0;
 }
 .skills-top{
 	padding:2em 0 0;
@@ -629,7 +651,7 @@ i.twit{
 	height:48px;
 	background:url(../images/twitter.png)no-repeat;
 	display: inline-block;
-	
+
 }
 .slider-top p{
 	font-size:18px;
@@ -754,7 +776,7 @@ i.twit{
 	-o-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-ms-transition:0.5s all;
-	
+
 }
 /*--- contact Part Ends Here ----*/
 /*--- Footer Starts Here ---*/
@@ -801,7 +823,7 @@ p.copyright a:hover{
 		margin: 2em 0;
 	}
 	label.bag {
-		left: 32.7em;
+		left: 32.6em;
 	}
 	.slider-top p {
 		font-size: 16px;
@@ -813,18 +835,24 @@ p.copyright a:hover{
 	.exp-devide-grid-left {
 		left: 4.4em;
 	}
+	.exp-devide-grid-lefttb {
+		left: 4.4em;
+	}
 	.exp-devide-grid-rightb {
 		top: 22em;
 		left: 36.2em;
 	}
 	.experience {
-		min-height: 970px;
+		min-height: 1220px;
 	}
 	.education {
-		margin-top: 38%;
+		margin-top: 58%;
 	}
-	span.devide-line {
-		height: 409px;
+	span.devide-line-ed {
+		height: 450px;
+	}
+	span.devide-line-exp {
+		height: 560px;
 	}
 	label.book {
 		left: 32.7em;
@@ -853,7 +881,7 @@ p.copyright a:hover{
 		margin: 2em 0 3em;
 	}
 	.exp-devide h4 {
-		width: 19%;
+		width: 29%;
 	}
 	label.bag {
 		left: 24.7em;
@@ -864,12 +892,15 @@ p.copyright a:hover{
 	.exp-devide-grid-left {
 		left: 2.8em;
 	}
+	.exp-devide-grid-lefttb {
+		left: 2.8em;
+	}
 	.exp-devide-grid-rightb {
-		top: 18em;
+		top: 24em;
 		left: 28.3em;
 	}
 	.education {
-		margin-top: 55%;
+		margin-top: 75%;
 	}
 	label.book {
 		left: 24.7em;
@@ -878,10 +909,13 @@ p.copyright a:hover{
 		margin-bottom: 2em;
 	}
 	.experience {
-		min-height: 1030px;
+		min-height: 1220px;
 	}
-	span.devide-line {
-		height: 435px;
+	span.devide-line-ed {
+		height: 450px;
+	}
+	span.devide-line-exp {
+		height: 560px;
 	}
 	.award-column {
 		margin-bottom: 1.5em;
@@ -919,11 +953,18 @@ p.copyright a:hover{
 		left: 1.9em;
 		display: none;
 	}
+	.exp-devide-grid-lefttb {
+		left: 1.9em;
+		display: none;
+	}
 	.exp-devide h4 {
-		width: 19%;
+		width: 29%;
 		margin: 0;
 	}
-	span.devide-line {
+	span.devide-line-ed {
+		left: 10%;
+	}
+	span.devide-line-exp {
 		left: 10%;
 	}
 	.about-top p.about-p {
@@ -940,7 +981,7 @@ p.copyright a:hover{
 		font-size: 16px
 	}
 	label.bag,label.book {
-		left: 7.25%;
+		left: 7.20%;
 		top: 4em;
 	}
 	.exp-devide-grid-right {
@@ -951,26 +992,32 @@ p.copyright a:hover{
 	.exp-devide-grid-left {
 			left: 1.9em;
 	}
+	.exp-devide-grid-lefttb {
+			left: 1.9em;
+	}
 	.exp-devide-grid-rightb {
 		top: 16em;
 		left: 15.8%;
 		width:84%;
 	}
-	.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5 {
-		font-size: 16px;
+	.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-lefttb h5 {
+		font-size: 15px;
 	}
-	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p {
-		font-size: 14px;
+	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p, .exp-devide-grid-lefttb h5 {
+		font-size: 13px;
 		line-height:1.2em;
 	}
-	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{
-		font-size:15px;
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small, .exp-devide-grid-lefttb small,{
+		font-size:14px;
 	}
 	.experience {
-		min-height: 906px;
+		min-height: 1220px;
 	}
-	span.devide-line {
-		height: 396px;
+	span.devide-line-ed {
+		height: 500px;
+	}
+	span.devide-line-exp {
+		height: 500px;
 	}
 	.skills-top {
 		padding: 0em 0 0;
@@ -1028,7 +1075,7 @@ p.copyright a:hover{
 	}
 	.header-top {
 		margin-top: 9%;
-	}	
+	}
 	.header-profile {
 		left: 39%;
 	}
@@ -1049,8 +1096,8 @@ p.copyright a:hover{
 	}
 	.exp-devide h4 {
 		font-size: 14px;
-		width: 23%;
-	}	
+		width: 29%;
+	}
 	label.bag, label.book {
 		left: 7%;
 	}
@@ -1061,6 +1108,9 @@ p.copyright a:hover{
 	.exp-devide-grid-left {
 		left: 0.8em;
 	}
+	.exp-devide-grid-lefttb {
+		left: 0.8em;
+	}
 	.exp-devide-grid-rightb {
 		top: 18em;
 		left: 17.9%;
@@ -1068,11 +1118,14 @@ p.copyright a:hover{
 	.education {
 		margin-top: 95%;
 	}
-	span.devide-line {
-		height: 418px;
-	}	
+	span.devide-line-ed {
+		height: 500px;
+	}
+	span.devide-line-exp {
+		height: 500px;
+	}
 	.experience {
-		min-height: 1040px;
+		min-height: 1220px;
 	}
 	.skill-grid h3 {
 		font-size: 16px;
@@ -1125,7 +1178,7 @@ p.copyright a:hover{
 	}
 	.award-column i.cups {
 		background-position: -258px 0px;
-	}	
+	}
 	.slider-top {
 		margin: 0 15%;
 	}
@@ -1176,6 +1229,9 @@ p.copyright a:hover{
 	.exp-devide-grid-left {
 		left: -0.4em;
 	}
+	.exp-devide-grid-lefttb {
+		left: -0.4em;
+	}
 	.exp-devide-grid-right {
 		left: 22.8%;
 		width:80%
@@ -1194,8 +1250,11 @@ p.copyright a:hover{
 	ul.hoby li {
 		margin: 0em 0em;
 	}
-	span.devide-line {
-		height: 434px;
+	span.devide-line-ed {
+		height: 500px;
+	}
+	span.devide-line-exp {
+		height: 500px;
 	}
 	.callbacks_nav {
 		top: 65%;
@@ -1214,12 +1273,12 @@ p.copyright a:hover{
 	.contact-column i.phone {
 		background-position: -98px 0px;
 	}
-	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p {
-		font-size: 13px;
+	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p, .exp-devide-grid-lefttb p, {
+		font-size: 12px;
 		line-height:1.5em;
 	}
-	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{
-		font-size:14px;
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,.exp-devide-grid-lefttb small,{
+		font-size:13px;
 	}
 }
 /*--- Media Queries Ends Here ---*/
